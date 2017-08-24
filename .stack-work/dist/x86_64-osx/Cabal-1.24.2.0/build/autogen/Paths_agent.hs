@@ -30,7 +30,7 @@ version = Version [0,1,0,0] []
 bindir, libdir, dynlibdir, datadir, libexecdir, sysconfdir :: FilePath
 
 bindir     = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/bin"
-libdir     = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/agent-0.1.0.0-2WJDTinK7nk3thPqA1BTWz"
+libdir     = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2/agent-0.1.0.0-Emybpf6FBOK3437o4sauy3"
 dynlibdir  = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/lib/x86_64-osx-ghc-8.0.2"
 datadir    = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/share/x86_64-osx-ghc-8.0.2/agent-0.1.0.0"
 libexecdir = "/Users/abhiroop/Haskell/agent/.stack-work/install/x86_64-osx/lts-8.24/8.0.2/libexec"

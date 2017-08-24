@@ -16,15 +16,29 @@ cabal-version:       >=1.10
 library
   hs-source-dirs:      src
   exposed-modules:     Lib
-  build-depends:       base >= 4.7 && < 5
+  build-depends:       base >= 4.7 && < 5,
+                       binary >= 0.8.3.0,
+                       containers >= 0.5.7.1,
+                       distributed-static >= 0.3.5.0,
+                       distributed-process-simplelocalnet >= 0.2.3.3,
+                       template-haskell >= 2.11.1.0
   default-language:    Haskell2010
 
 executable agent-exe
   hs-source-dirs:      app
   main-is:             Main.hs
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
-  build-depends:       base
-                     , agent
+  build-depends:       agent
+                     , async
+                     , base
+                     , binary >= 0.8.3.0
+                     , containers >= 0.5.7.1
+                     , distributed-process
+                     , distributed-process-simplelocalnet
+                     , distributed-static >= 0.3.5.0
+                     , network
+                     , stm
+                     , template-haskell >= 2.11.1.0
   default-language:    Haskell2010
 
 test-suite agent-test
@@ -33,6 +47,10 @@ test-suite agent-test
   main-is:             Spec.hs
   build-depends:       base
                      , agent
+                     , binary >= 0.8.3.0
+                     , containers >= 0.5.7.1
+                     , distributed-static >= 0.3.5.0
+                     , template-haskell >= 2.11.1.0
   ghc-options:         -threaded -rtsopts -with-rtsopts=-N
   default-language:    Haskell2010
 

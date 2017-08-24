@@ -14,6 +14,69 @@
   (major1) == 4 && (major2) <  9 || \
   (major1) == 4 && (major2) == 9 && (minor) <= 1)
 
+/* package binary-0.8.3.0 */
+#define VERSION_binary "0.8.3.0"
+#define MIN_VERSION_binary(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  8 || \
+  (major1) == 0 && (major2) == 8 && (minor) <= 3)
+
+/* package containers-0.5.7.1 */
+#define VERSION_containers "0.5.7.1"
+#define MIN_VERSION_containers(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  5 || \
+  (major1) == 0 && (major2) == 5 && (minor) <= 7)
+
+/* package distributed-process-simplelocalnet-0.2.3.3 */
+#define VERSION_distributed_process_simplelocalnet "0.2.3.3"
+#define MIN_VERSION_distributed_process_simplelocalnet(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  2 || \
+  (major1) == 0 && (major2) == 2 && (minor) <= 3)
+
+/* package distributed-static-0.3.5.0 */
+#define VERSION_distributed_static "0.3.5.0"
+#define MIN_VERSION_distributed_static(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  3 || \
+  (major1) == 0 && (major2) == 3 && (minor) <= 5)
+
+/* package template-haskell-2.11.1.0 */
+#define VERSION_template_haskell "2.11.1.0"
+#define MIN_VERSION_template_haskell(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  11 || \
+  (major1) == 2 && (major2) == 11 && (minor) <= 1)
+
+/* package async-2.1.1.1 */
+#define VERSION_async "2.1.1.1"
+#define MIN_VERSION_async(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  1 || \
+  (major1) == 2 && (major2) == 1 && (minor) <= 1)
+
+/* package distributed-process-0.6.6 */
+#define VERSION_distributed_process "0.6.6"
+#define MIN_VERSION_distributed_process(major1,major2,minor) (\
+  (major1) <  0 || \
+  (major1) == 0 && (major2) <  6 || \
+  (major1) == 0 && (major2) == 6 && (minor) <= 6)
+
+/* package network-2.6.3.2 */
+#define VERSION_network "2.6.3.2"
+#define MIN_VERSION_network(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  6 || \
+  (major1) == 2 && (major2) == 6 && (minor) <= 3)
+
+/* package stm-2.4.4.1 */
+#define VERSION_stm "2.4.4.1"
+#define MIN_VERSION_stm(major1,major2,minor) (\
+  (major1) <  2 || \
+  (major1) == 2 && (major2) <  4 || \
+  (major1) == 2 && (major2) == 4 && (minor) <= 4)
+
 /* tool alex-3.1.4 */
 #define TOOL_VERSION_alex "3.1.4"
 #define MIN_TOOL_VERSION_alex(major1,major2,minor) (\
@@ -84,7 +147,7 @@
   (major1) == 0 && (major2) <  29 || \
   (major1) == 0 && (major2) == 29 && (minor) <= 2)
 
-#define CURRENT_COMPONENT_ID "agent-0.1.0.0-2WJDTinK7nk3thPqA1BTWz"
+#define CURRENT_COMPONENT_ID "agent-0.1.0.0-Emybpf6FBOK3437o4sauy3"
 
-#define CURRENT_PACKAGE_KEY "agent-0.1.0.0-2WJDTinK7nk3thPqA1BTWz"
+#define CURRENT_PACKAGE_KEY "agent-0.1.0.0-Emybpf6FBOK3437o4sauy3"
 

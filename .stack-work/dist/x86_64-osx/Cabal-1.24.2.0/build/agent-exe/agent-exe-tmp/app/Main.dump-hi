@@ -1,11 +1,11 @@
 
 ==================== FINAL INTERFACE ====================
-2017-08-24 10:47:42.244593 UTC
+2017-08-24 13:17:06.481632 UTC
 
 interface main@main:Main 8002
-  interface hash: a939a230116fd2d57e4ebdfb89d0de6b
-  ABI hash: 916049ec6279b093abd19f1af3d155d5
-  export-list hash: 4c8cf886a8c3a53f75b475c60f25e82b
+  interface hash: a146590c52d503ce26063d5d98d314c3
+  ABI hash: 0d6530725b793f7dd6ae1faa22f2fa9f
+  export-list hash: 08a924460d1c7a24064b134dca3f3f48
   orphan hash: 693e9af84d3dfcc71e640e005bdc5e2e
   flag hash: 06ed575d52219fcb473c3963cabcaac3
   sig of: Nothing
@@ -14,7 +14,7 @@ interface main@main:Main 8002
 exports:
   Main.main
 module dependencies:
-package dependencies: agent-0.1.0.0@agent-0.1.0.0-2WJDTinK7nk3thPqA1BTWz
+package dependencies: agent-0.1.0.0@agent-0.1.0.0-Emybpf6FBOK3437o4sauy3
                       base-4.9.1.0* ghc-prim-0.5.0.0 integer-gmp-1.0.0.1
 orphans: base-4.9.1.0:GHC.Base base-4.9.1.0:GHC.Float
 family instance modules: base-4.9.1.0:Control.Applicative
@@ -22,7 +22,7 @@ family instance modules: base-4.9.1.0:Control.Applicative
                          base-4.9.1.0:Data.Monoid base-4.9.1.0:Data.Type.Equality
                          base-4.9.1.0:GHC.Generics base-4.9.1.0:GHC.IO.Exception
                          base-4.9.1.0:GHC.TypeLits
-import  -/  agent-0.1.0.0@agent-0.1.0.0-2WJDTinK7nk3thPqA1BTWz:Lib 6cb3522b5728872ffeb7b9760c755f15
+import  -/  agent-0.1.0.0@agent-0.1.0.0-Emybpf6FBOK3437o4sauy3:Lib d459bc05baca3a86638fa9cd874d964b
 import  -/  base-4.9.1.0:Prelude 22dd289b8469a8fa8dc81cab7b237771
 import  -/  ghc-prim-0.5.0.0:GHC.Types 89f8de4f08018c9177c98d979eae0e45
 d6831ef04cb9301b090dfae6f7bb7ec7
@@ -37,12 +37,12 @@ d6831ef04cb9301b090dfae6f7bb7ec7
   $trModule2 :: GHC.Types.TrName
   {- HasNoCafRefs, Strictness: m1,
      Unfolding: (GHC.Types.TrNameS "main"#) -}
-14856dff327f9a3447cdec64467c32d0
+65762ce700ab3ad4b77670a520f28131
   main :: GHC.Types.IO ()
   {- Arity: 1, Strictness: <S,U>,
      Unfolding: InlineRule (0, True, True)
                 Lib.someFunc1 `cast` (Sym (GHC.Types.N:IO[0] <()>_R)) -}
-e282124388203ff01a09fbe1457eb58b
+7109c69937008547922f278aca1f2c37
   main1 ::
     GHC.Prim.State# GHC.Prim.RealWorld
     -> (# GHC.Prim.State# GHC.Prim.RealWorld, () #)
